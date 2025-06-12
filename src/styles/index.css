@@ -1,11 +1,13 @@
-/* 
+.deleteBtn {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.deleteBtn:hover {
+  transform: scale(1.3);
+  color: #a71d2a;
+}
